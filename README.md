@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/radespratama/openmusic-queue-consumer">
-    <img src="https://github.com/radespratama/openmusic-queue-consumer/blob/main/public/openmusic-logo.png?raw=true" alt="Logo">
+    <img src="https://github.com/radespratama/openmusic-queue-consumer/blob/main/public/openmusic-logo.png?raw=true" alt="Logo" width="250">
   </a>
 
   <h3 align="center">OpenMusic API Queue Consumer</h3>
