@@ -1,7 +1,7 @@
 {
   "name": "queue-consumer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Queue consumer untuk API Openmusic",
   "scripts": {
     "start": "node src/consumer.js"
   },
