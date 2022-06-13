@@ -2,7 +2,7 @@ require("dotenv").config();
 const amqp = require("amqplib");
 const PlaylistSongsService = require("./services/PlaylistSongsService");
 const MailSender = require("./MailSender");
-const Listener = require("./listener");
+const Listener = require("./Listener");
 
 const initConsumer = async () => {
   const playlistSongsService = new PlaylistSongsService();

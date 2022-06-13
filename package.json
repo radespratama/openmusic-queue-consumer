@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Queue consumer untuk API Openmusic",
   "scripts": {
-    "start": "node src/consumer.js"
+    "start": "node src/consumer.js",
+    "lint": "eslint . --fix"
   },
   "keywords": [],
   "author": "@radespratama",
@@ -14,5 +15,10 @@
     "dotenv": "^16.0.1",
     "nodemailer": "^6.7.5",
     "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
